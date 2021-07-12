@@ -196,11 +196,15 @@ main{
 --------------------------------*/
 
 @media only screen and (max-width:688px){
+   
     .container{
         width: 100%;
+        padding: 0;
+        margin: 0;
     }
    .players,.blogs,.courses{
         grid-template-columns: repeat(1,1fr); 
+          
    }
    .player{
        flex-direction: column;
@@ -211,6 +215,7 @@ main{
    }
     
 }
+
 
 
 
