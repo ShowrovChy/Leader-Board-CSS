@@ -347,17 +347,48 @@ footer>p{
                 I-pad Or Any Tab Screen 
         --------------------------------*/
 @media  only screen and (min-width:688px) and (max-width:992px) {
+    .navbar{
+        width: 100%;
+    }
+    .menu-list a{
+        padding: 7px;
+    }
 
     .container{
         width: 100%;
         padding: 0;
         margin: 0;
     }
+    .section-name{
+        margin-left: 30px;
+        margin-top: 40px;
+    }
     .players,.courses{
         grid-template-columns: repeat(2,1fr);
+        
+    }
+    .player{
+        margin-left: 50px;
+        margin-top: 20px;
+
     }
     .blogs{
         grid-template-columns: repeat(1,1fr);
+        padding: 15px 30px;
+    }
+   
+    .courses{
+        padding: 0 30px 20px;
+    }
+    .course{
+        margin-top:27px ;
+    }
+    footer{
+        width: 100%;
+
+    }
+    footer p{
+        font-size: 13px;
     }
 }
 
