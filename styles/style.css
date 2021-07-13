@@ -127,7 +127,7 @@ main{
     grid-gap: 25px 25px;
     
 }
-.blogs .blog{
+ .blog{
     display: flex;
     padding: 10px;
     box-shadow: 0 0 15px #d9d2ff;
@@ -270,7 +270,7 @@ footer>p{
    }
    .section-name{
     text-align: center;
-    margin-top: 20px;
+    margin-top: 60px;
     }
     .player{
         margin-top: 25px;
@@ -292,6 +292,7 @@ footer>p{
         flex-direction: column;
         align-items: center;
         width: 100%;
+        padding: 0 35px;
     }
     .blog{
         width:100%;
@@ -315,10 +316,12 @@ footer>p{
         flex-direction: column;
         align-items: center;
         width: 100%;
+        padding: 0 35px;
     }
     .course{
         margin-bottom: 25px;
         width: 100%;
+        margin-top: 30px;
     }
     .courses img{
         width:100%;
